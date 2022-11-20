@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web School</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/bbb4e0156b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="makanan-header">
+        <nav>
+            <a href="index.html"><img src=""></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">Beranda</a></li>
+                    <li><a href="sejarah.html">Sejarah</a></li>
+                    <li><a href="martikulasi.html">Martikulasi</a></li>
+                    <li><a href="perpustakaan.html">Perpustakaan</a></li>
+                    <li><a href="kantin.html">Kantin</a></li>
+                    <li><a href="makanansehat.html">Makanan Sehat</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+        </nav>
+    <h1>Makanan Sehat</h1>
+</div>
+    </section>
+<!-- -----------CONTENT------------ -->
+<section class="sertif">
+    <div class="kolom">
+    <div class="row">
+        <div class="sertif-col">
+            <img src="img/MAKANSEHAT1.jpeg">
+        </div>
+        <div class="sertif-col">
+            <img src="img/MAKANSEHAT2.jpg">
+        </div>
+        <div class="sertif-col">
+            <img src="img/MAKANSEHAT3.jpg">
+        </div>
+    </div>  
+    <div class="row">
+        <div class="sertif-col">
+            <img src="img/MAKANSEHAT4.jpg">
+        </div>
+        <div class="sertif-col">
+            <img src="img/MAKANSEHAT5.jpeg">
+        </div>
+        <div class="sertif-col">
+            <img src="img/MAKANSEHAT6.jpg.crdownload">
+        </div>
+    </div>  
+</section>
+
+<!-- Java script for toggle menu -->
+<script>
+    var navlinks = document.getElementById("navlinks");
+    function showmenu(){
+        navlinks.style.right = "0"
+    }
+    function hidemenu(){
+        navlinks.style.right = "-200px"
+    }
+</script>
+
+<!-- -----------FOOTER----------- -->
+<footer>
+    <div class="footer-content">
+        <h3>Contact Us</h3>
+        <p>Enroll in Wikrama school to get a good education</p>
+        <ul class="socials">
+            <li><a href="https://www.facebook.com/smkwikrama" target="_blank"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://twitter.com/smkwikrama" target="_blank"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://www.instagram.com/smkwikrama/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="https://www.youtube.com/channel/UCyhEUzlXbXet57qFnDfdWuw" target="_blank"><i class="fa fa-youtube"></i></a></li>
+        </ul>
+    </div>
+    <div class="footer-bottom">
+        <p>Copyright &copy;2022 <span>Raga Ridzki Panuntun</span></p>
+    </div>
+</footer>
+
+</body>
+</html>
